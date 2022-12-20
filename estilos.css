@@ -1,0 +1,146 @@
+body {
+    background-color: #1F1D1E;
+    color: white;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+  }
+  
+.topbar {
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    margin: 0px;
+  }
+  
+  h1,
+  .h1 {
+    font-size: 16px;
+  }
+  
+  h2,
+  .h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 48px;
+  line-height: 100%;
+  }
+
+  h2 name {
+    font-size: 64px;
+    color: green;
+  }
+  
+  h3,
+  .h3 {
+    font-size: 128px;
+  }
+  
+  h4,
+  .h4 {
+    font-size: 35px;
+    color: #D03880;
+  }
+  
+  p cursiva {
+    font-family: 'Poppins' 'light';
+    font-size: 14px;
+  }
+
+
+/* BOTONES */
+    button, button2,
+    .btn {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #D03880;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #D03880;
+    line-height: 2;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    }
+
+    button:hover,
+    .btn:hover {
+    background-color: #ffffff;
+    color: #333333;
+    font-family: 'Poppins', sans-serif, Bold;
+    }
+
+/* CIRCULOS */
+
+.circle, .circle2, .circle3, .circle4 {
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    padding:3%;
+}
+
+.skills1, .skills2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px 0px;
+    gap: 12px;
+    width: 252px;
+    height: 104px;
+}
+
+/* FORMULARIO */
+
+form{
+    font-family: 'Poppins', sans-serif;
+    padding: 60px;
+    max-width: 400px;
+    background-color: #D03880;
+    margin: 0 auto;
+  }
+  
+  form input, form textarea{
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    border: none; 
+    color: #333333; 
+    font-size: 1em;
+    resize: none; 
+  }
+  
+  form button {
+      display: block;
+      background-color: #0095eb;
+      padding: 10px 45px 10px 45px;
+      border: 0;
+      font-size: 1em; 
+      color: 	white;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  form button:hover{
+      background-color: #046193;
+  }
+  
+  textarea {  resize: none;}
+
+  
