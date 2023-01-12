@@ -9,90 +9,108 @@
 </head>
 
 <body>
-    <div class="topbar">Nat</div>
-
-    <div class="container">Hi!&nbsp;
+    <section class="container">
+        <div class="topbar">Nat</div>
+        <div class="hand">Hi!&nbsp;
         <span class="wave">👋</span>
-    </div>
-    
-    <h2>My name is</h2>
-    <h2 class="name">Natacha Graviotto</h2>
-    <h1>I’m a UX/UI Designer & Frontend developer.</h1>
+        </div>
 
-    <arrow>Flecha + scroll</arrow>
+        <div class="title">
+            <h2 class="name1">My name is</h2>
+            <h2 class="name2">Natacha Graviotto</h2>
+            <h1>I’m a UX/UI Designer & Frontend developer.</h1>
+        </div>
+
+        <div>
+            <img src="./img/sticker-natacha.png" alt="Sticker Natacha">
+        </div>
+    <!-- <arrow>Flecha + scroll</arrow> -->
+    </section> 
         
     <!-- 01. About mee -->    
-    <section class="01aboutme">
+    <section class="aboutme">
         <hr>
-            <h4>01. About me</h4>
+            <h2>01. About me</h2>
             <p><i>Hello again!</i></p>
-            <p>I’m Natacha (Nat), and I’m a Graphic Designer graduated from EASD (València).I am currently enjoying and studying a Postgraduate in UX/UI, Digital Marketing and Web Front-end.I’m a really curious and creative person. I love to see all stuff from a different point of view.My hobby is photography, always with minimalist and clean style.</p>
+            <p>I’m Natacha, and I’m a <b>Graphic Designer</b> graduated from EASD (València).I am currently enjoying and studying a Postgraduate in <b>UX/UI, Digital Marketing and Web Front-end</b>. I’m a really curious and creative person. I love to see all stuff from <b>a different point of view</b>. My hobby is photography, always with <b>minimalist and clean style</b>.</p>
     </section>
 
     <!-- 02. Experience -->
-    <section class="02experience">
+    <section class="experience">
         <hr>
-            <h4>02. Experience</h4>
-            <!--botones-->
-            <button>BRANDING</button>
-            <button>PHOTOGRAPHY</button>
-            <button>UX/UI</button>
-            <button>DIGITAL CONTENT</button>
-            <button>SOCIAL MEDIA</button>
-            <button>RETOUCHING</button>
-            <button>FIGMA</button>
+            <h2>02. Experience</h2>
+            <!--botones USAR UN DIV Y PONER UNA CLASE Y CON FLEX--> 
+            <div class="btn1">
+                <button>BRANDING</button>
+                <button>PHOTOGRAPHY</button>
+                <button>UX/UI</button>
+            </div>
+
+            <div class="btn2">
+                <button>DIGITAL CONTENT</button>
+                <button>SOCIAL MEDIA</button>
+            </div>
+
+            <div class="btn3">
+                <button>RETOUCHING</button>
+                <button>FIGMA</button>
+            </div>
     </section>
 
     <!-- 03.Skills & Strengths -->
-    <section class="03skills&strengths">
+    <section class="skills-strenghts">
         <hr>
-            <h4>03. Skills & Strengths</h4>
-            <div class="circle">
-                <h5>Creativity</h5>
-            </div>
-            <div class="circle2">
-                <h5>Teamwork</h5>
-            </div>
-            <div class="circle3">
-                <h5>Critical thinking</h5>
-            </div>
-            <div class="circle4">
-                <h5>Problem solving</h5>
+            <h2>03. Skills & Strengths</h2>
+
+            <div class="container-circle">
+                <div class="circle">Creativity</div>
+                <div class="circle">Teamwork</div>
+                <div class="circle">Critical Thinking</div>
+                <div class="circle">Problem Solving</div>
             </div>
 
-            <div class="skills1">
-                <p>Figma</p>
-                <p>Photoshop</p>
-                <p>Illustrator</p>
-                <p>Indesign</p>
-            </div>
-
-            <div class="skills2">
-                <p>Visual Studio Code</p>
-                <p>Premiere</p>
-                <p>XD</p>
-                <p>After Effects</p>
+            <div class="skills">
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Indesign</li>
+                <li>Visual Studio Code</li>
+                <li>Premiere</li>
+                <li>XD</li>
+                <li>After Effects</li>
             </div>
     </section>
 
     <!-- 04.Contact -->
-    <section class="04contact">
+    <section class="contact">
         <hr>
-            <h4>04. Contact</h4>
-            <p>Let's work together to build something great.</p>
+            <h2>04. Contact</h2>
+            <p>Let's work together to build something great. 🤟🏼</p>
             <!--poner sticker + botones-->
+            <div>
+                <img class="img2" src="./img/sticker-natacha2.png" alt="Sticker Natacha">
+            </div>
+
+            <!-- Botones de RRSS -->
+                <a class="btn-rrss" href=mailto:ngraviotto@gmail.com?subject="enlace HTML">EMAIL</a>
+                <a class="btn-rrss" href=www.linkedin.com="enlace HTML">LINKEDIN</a>
     </section>
 
     <!-- FORMULARIO -->
     <section class="pattern-section">
-        <h5 class="pattern-title">Form</h5>
-      <form action="formulario-contacto.php" method="post">	
-        <input name="nombre" type="text" placeholder="Name" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
-        <input name="email" type="email" placeholder="Email" required />	
-        <textarea name="consulta" placeholder="Tell me!" rows="6" required></textarea>
-        <button id="enviar" name="enviar" type="submit" class="btn">SEND</button>
-      </form>
-      </section>
+        <h5 class="pattern-title"></h5>
+        <form action="formulario-contacto.php" method="post">	
+            <input name="nombre" type="text" placeholder="Name" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+            <input name="email" type="email" placeholder="Email" required />	
+            <textarea name="consulta" placeholder="Tell me!" rows="6" required></textarea>
+            <button id="enviar" name="enviar" type="submit" class="btn">SEND</button>
+        </form>
+    </section>
 
+    <section class="footer">
+        <p>BACK TO TOP</p>
+    </section>
 </body>
 </html>
+
+
